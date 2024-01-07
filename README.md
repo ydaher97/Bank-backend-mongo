@@ -1,5 +1,5 @@
 # Bank-backend-mongo
-# My Bank App - Backend
+
 
 This backend application manages users and transactions for a banking system.
 
@@ -8,7 +8,7 @@ This backend application manages users and transactions for a banking system.
 - [Installation](#installation)
 - [API Endpoints](#api-endpoints)
 - [Technologies Used](#technologies-used)
-- [License](#license)
+
 
 ## Installation
 
