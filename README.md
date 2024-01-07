@@ -50,18 +50,19 @@ This backend application manages users and transactions for a banking system.
 - `GET /api/users`: Get details of all users.
 - `PUT /api/users/:id`: Update user details.
 - `DELETE /api/users/:id`: Delete a user.
+- `PUT /api/users/deposit` : Deposite cash
+- `PUT /api/users/update-credit` : update user credit
+- `PUT /api/users/withdraw` : Withdraw cash for a user
+- `PUT /api/users/transfer` :Transfer money between users.
 
 ### Transactions
 
-- `POST /api/transactions/deposit`: Deposit cash for a user.
-- `POST /api/transactions/update-credit`: Update credit for a user.
-- `POST /api/transactions/withdraw`: Withdraw cash for a user.
-- `POST /api/transactions/transfer`: Transfer money between users.
-- `GET /api/transactions/user/:id`: Get transaction history of a user.
+- `POST /api/transactions/`: Record transaction.
+- `GET /api/transactions/:id`: Get transaction history of a user.
 
 ## Technologies Used
 
 - Node.js
 - Express
 - MongoDB (Mongoose)
-- Other dependencies as listed in `package.json`
+
